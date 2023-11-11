@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection{
+    background: #f34f3f;
+    color: #fff;
+}
+body {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: $primaryColor;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: $primaryColor;
+    transition: color .2s ease-out;
+}
+ul{
+    list-style-type: none;
+}
